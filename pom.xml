@@ -10,19 +10,21 @@
   <name>SourceAbled</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-  
+ <properties>
+   
+ 
+		<jre.level>1.8</jre.level>
+		<jdk.level>1.8</jdk.level>
+	</properties>
   <build>
   <plugins>  
-    
-    <plugin>
+  
+  <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
+					<source>${jdk.level}</source>
+					<target>${jdk.level}</target>
 				</configuration>
 			</plugin>
       
