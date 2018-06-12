@@ -10,16 +10,13 @@
   <name>SourceAbled</name>
   <url>http://maven.apache.org</url>
 
- <properties>
-   
- 
+ <properties> 
 		<jre.level>1.8</jre.level>
 		<jdk.level>1.8</jdk.level>
 	</properties>
   <build>
-  <plugins>  
-  
-  <plugin>
+                <plugins>  
+			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
@@ -39,6 +36,15 @@
         </configuration>
       </plugin>
 </plugins>
+	  
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+         <artifactId>wagon-ssh</artifactId>
+         <version>1.0-beta-7</version>
+      </extension>
+    </extensions>
+	  
 </build>
 
   <dependencies>
