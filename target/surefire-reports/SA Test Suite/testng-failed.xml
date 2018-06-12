@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SA Test Suite]">
+  <test verbose="0" name="SA_verification(failed)">
+    <classes>
+      <class name="com.sa.js.login.JsLogin">
+        <methods>
+          <include name="LoadPropertie"/>
+          <include name="ReadExcelFile"/>
+          <include name="LoadDriver"/>
+          <include name="CloseBrowser"/>
+          <include name="Matches"/>
+        </methods>
+      </class> <!-- com.sa.js.login.JsLogin -->
+    </classes>
+  </test> <!-- SA_verification(failed) -->
+</suite> <!-- Failed suite [SA Test Suite] -->

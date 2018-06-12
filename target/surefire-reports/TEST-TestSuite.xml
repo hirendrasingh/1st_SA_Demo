@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="20.481" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\hirendrarajawat\workspace\SourceAbled\target\test-classes;C:\Users\hirendrarajawat\workspace\SourceAbled\target\classes;C:\Users\hirendrarajawat\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\testng\testng\6.13.1\testng-6.13.1.jar;C:\Users\hirendrarajawat\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.1\selenium-java-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.1\selenium-api-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.1\selenium-chrome-driver-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.1\selenium-edge-driver-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.1\selenium-firefox-driver-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.1\selenium-ie-driver-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.1\selenium-opera-driver-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.1\selenium-remote-driver-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.1\selenium-safari-driver-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.1\selenium-support-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hirendrarajawat\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hirendrarajawat\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hirendrarajawat\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\hirendrarajawat\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\hirendrarajawat\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hirendrarajawat\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\hirendrarajawat\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\hirendrarajawat\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\poi\poi-scratchpad\3.17\poi-scratchpad-3.17.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\hirendrarajawat\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\HIREND~1\AppData\Local\Temp\surefire7878683624144573521\surefirebooter14653236178662009.jar C:\Users\hirendrarajawat\AppData\Local\Temp\surefire7878683624144573521 2018-06-12T01-02-49_035-jvmRun1 surefire5872753341677023044tmp surefire_08639811076867313191tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\hirendrarajawat\workspace\SourceAbled\target\test-classes;C:\Users\hirendrarajawat\workspace\SourceAbled\target\classes;C:\Users\hirendrarajawat\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\testng\testng\6.13.1\testng-6.13.1.jar;C:\Users\hirendrarajawat\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.1\selenium-java-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.1\selenium-api-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.1\selenium-chrome-driver-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.1\selenium-edge-driver-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.1\selenium-firefox-driver-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.1\selenium-ie-driver-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.1\selenium-opera-driver-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.1\selenium-remote-driver-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.1\selenium-safari-driver-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.1\selenium-support-3.8.1.jar;C:\Users\hirendrarajawat\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hirendrarajawat\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hirendrarajawat\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hirendrarajawat\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\hirendrarajawat\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\hirendrarajawat\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hirendrarajawat\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\hirendrarajawat\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\hirendrarajawat\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\poi\poi-scratchpad\3.17\poi-scratchpad-3.17.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\hirendrarajawat\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\hirendrarajawat\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\hirendrarajawat"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="basedir" value="C:\Users\hirendrarajawat\workspace\SourceAbled"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\HIREND~1\AppData\Local\Temp\surefire7878683624144573521\surefirebooter14653236178662009.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="user.name" value="hirendrarajawat"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\hirendrarajawat\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HIREND~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="user.dir" value="C:\Users\hirendrarajawat\workspace\SourceAbled"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.7.0_79/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_79/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_79/bin/../jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\yogeshsolanki\android-sdks\platform-tools;C:\Users\yogeshsolanki\android-sdks\tools;C:\Program Files\Java\jdk1.8.0_101\bin;C:\apache-maven-3.5.2\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\yogeshsolanki\android-sdks\platform-tools;C:\Users\yogeshsolanki\android-sdks\tools;C:\Program Files\Java\jdk1.8.0_101\bin;C:\apache-maven-3.5.2\bin;C:\Users\hirendrarajawat\AppData\Local\Programs\Git\cmd;C:\Program Files\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Salogin" classname="com.sa.js.login.JsLogin" time="2.46"/>
+  <testcase name="Matches" classname="com.sa.js.login.JsLogin" time="5.443">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.sa.js.login.JsLogin.Matches(JsLogin.java:75)
+</failure>
+  </testcase>
+</testsuite>
