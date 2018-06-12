@@ -13,6 +13,8 @@
  <properties> 
 		<jre.level>1.8</jre.level>
 		<jdk.level>1.8</jdk.level>
+		
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
   <build>
                 <plugins>  
