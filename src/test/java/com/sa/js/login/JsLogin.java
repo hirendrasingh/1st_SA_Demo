@@ -70,23 +70,23 @@ public class JsLogin extends SuiteBase {
 	  
   }
   
-  @Test(priority=2)
+  /*@Test(priority=2)
   public void Matches() throws Exception {
 	  Select AManagerDD = new Select(driver.findElement(By.id(allsitedata.getProperty("AM_DD"))));
 	  AManagerDD.selectByVisibleText("HIrendra  rajawat");
 	  driver.findElement(By.xpath(allsitedata.getProperty("src_btn"))).click();
 	  driver.findElement(By.xpath(allsitedata.getProperty("reset_btn"))).click();
-	  /*Select JobsCheckboxes = new Select(driver.findElement(By.id(allsitedata.getProperty("chkselect"))));
-	  JobsCheckboxes.selectByIndex(1);*/
+	  Select JobsCheckboxes = new Select(driver.findElement(By.id(allsitedata.getProperty("chkselect"))));
+	  JobsCheckboxes.selectByIndex(1);
 	  driver.findElement(By.xpath(allsitedata.getProperty("Match3-btn"))).click();
 	  	  	  
-	  /*Set<String> window = driver.getWindowHandles();
+	  Set<String> window = driver.getWindowHandles();
 	  Iterator<String> newwin = window.iterator();
 	  String tab1 = newwin.next();
 	  String tab2 = newwin.next();
 	  System.out.println("win--> "+tab2);
 	  if(!tab2.equalsIgnoreCase(tab1))
-	  driver.switchTo().window(tab2);*/
+	  driver.switchTo().window(tab2);
 	  
 	  String parenttab = driver.getWindowHandle();
 	  Set<String> window = driver.getWindowHandles();
@@ -106,7 +106,7 @@ public class JsLogin extends SuiteBase {
 	  driver.findElement(By.id(allsitedata.getProperty("ZC_txtbox"))).clear();
 	  driver.findElement(By.id(allsitedata.getProperty("ACsrc_btn"))).click();
 	  
-  }
+  }*/
   
   
 }

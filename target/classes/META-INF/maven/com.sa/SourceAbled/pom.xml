@@ -10,12 +10,23 @@
   <name>SourceAbled</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-  
+ <properties> 
+		<jre.level>1.8</jre.level>
+		<jdk.level>1.8</jdk.level>
+		
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
   <build>
-  <plugins>  
+                <plugins>  
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${jdk.level}</source>
+					<target>${jdk.level}</target>
+				</configuration>
+			</plugin>
+      
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
@@ -27,6 +38,15 @@
         </configuration>
       </plugin>
 </plugins>
+	  
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+         <artifactId>wagon-ssh</artifactId>
+         <version>1.0-beta-7</version>
+      </extension>
+    </extensions>
+	  
 </build>
 
   <dependencies>
@@ -42,7 +62,8 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.13.1</version>
-    <scope>test</scope>
+    <scope>compile</scope>
+    <!-- <scope>test</scope> -->
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
