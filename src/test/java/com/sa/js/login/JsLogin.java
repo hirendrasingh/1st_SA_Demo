@@ -70,7 +70,7 @@ public class JsLogin extends SuiteBase {
 	  
   }
   
-  @Test(priority=2)
+  /*@Test(priority=2)
   public void Matches() throws Exception {
 	  Select AManagerDD = new Select(driver.findElement(By.id(allsitedata.getProperty("AM_DD"))));
 	  AManagerDD.selectByVisibleText("HIrendra  rajawat");
@@ -106,7 +106,7 @@ public class JsLogin extends SuiteBase {
 	  driver.findElement(By.id(allsitedata.getProperty("ZC_txtbox"))).clear();
 	  driver.findElement(By.id(allsitedata.getProperty("ACsrc_btn"))).click();
 	  
-  }
+  }*/
   
   
 }
