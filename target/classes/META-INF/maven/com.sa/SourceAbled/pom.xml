@@ -40,8 +40,7 @@
 	  
 </build>
 
-  <dependencies>
-  
+  <dependencies>  
   <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
 <dependency>
     <groupId>org.apache.maven.plugins</groupId>
