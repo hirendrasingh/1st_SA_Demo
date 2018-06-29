@@ -5,28 +5,28 @@
       <![CDATA[Test Complete Browser Quit]]>
     </line>
   </reporter-output>
-  <suite name="SA Test Suite" duration-ms="34604" started-at="2018-06-21T10:27:19Z" finished-at="2018-06-21T10:27:53Z">
+  <suite name="SA Test Suite" duration-ms="34072" started-at="2018-06-29T07:04:53Z" finished-at="2018-06-29T07:05:27Z">
     <groups>
     </groups>
-    <test name="SA_verification" duration-ms="34604" started-at="2018-06-21T10:27:19Z" finished-at="2018-06-21T10:27:53Z">
+    <test name="SA_verification" duration-ms="34072" started-at="2018-06-29T07:04:53Z" finished-at="2018-06-29T07:05:27Z">
       <class name="com.sa.js.login.JsLogin">
-        <test-method status="PASS" signature="LoadPropertie()[pri:0, instance:com.sa.js.login.JsLogin@735f7ae5]" name="LoadPropertie" is-config="true" duration-ms="33" started-at="2018-06-21T06:27:19Z" finished-at="2018-06-21T06:27:19Z">
+        <test-method status="PASS" signature="LoadPropertie()[pri:0, instance:com.sa.js.login.JsLogin@17550481]" name="LoadPropertie" is-config="true" duration-ms="84" started-at="2018-06-29T03:04:53Z" finished-at="2018-06-29T03:04:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoadPropertie -->
-        <test-method status="PASS" signature="LoadDriver()[pri:0, instance:com.sa.js.login.JsLogin@735f7ae5]" name="LoadDriver" is-config="true" duration-ms="28623" started-at="2018-06-21T06:27:19Z" finished-at="2018-06-21T06:27:47Z">
+        <test-method status="PASS" signature="LoadDriver()[pri:0, instance:com.sa.js.login.JsLogin@17550481]" name="LoadDriver" is-config="true" duration-ms="27451" started-at="2018-06-29T03:04:53Z" finished-at="2018-06-29T03:05:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoadDriver -->
-        <test-method status="PASS" signature="ReadExcelFile()[pri:0, instance:com.sa.js.login.JsLogin@735f7ae5]" name="ReadExcelFile" is-config="true" duration-ms="1717" started-at="2018-06-21T06:27:47Z" finished-at="2018-06-21T06:27:49Z">
+        <test-method status="PASS" signature="ReadExcelFile()[pri:0, instance:com.sa.js.login.JsLogin@17550481]" name="ReadExcelFile" is-config="true" duration-ms="2495" started-at="2018-06-29T03:05:20Z" finished-at="2018-06-29T03:05:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReadExcelFile -->
-        <test-method status="PASS" signature="Salogin()[pri:1, instance:com.sa.js.login.JsLogin@735f7ae5]" name="Salogin" duration-ms="3544" started-at="2018-06-21T06:27:49Z" finished-at="2018-06-21T06:27:52Z">
+        <test-method status="PASS" signature="Salogin()[pri:1, instance:com.sa.js.login.JsLogin@17550481]" name="Salogin" duration-ms="3377" started-at="2018-06-29T03:05:23Z" finished-at="2018-06-29T03:05:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Salogin -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.sa.js.login.JsLogin@735f7ae5]" name="CloseBrowser" is-config="true" duration-ms="654" started-at="2018-06-21T06:27:52Z" finished-at="2018-06-21T06:27:53Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.sa.js.login.JsLogin@17550481]" name="CloseBrowser" is-config="true" duration-ms="621" started-at="2018-06-29T03:05:26Z" finished-at="2018-06-29T03:05:27Z">
           <reporter-output>
             <line>
               <![CDATA[Test Complete Browser Quit]]>
