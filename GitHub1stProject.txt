@@ -1,0 +1,87 @@
+GitHub add project...........
+
+Quick setup — if you’ve done this kind of thing before
+or
+
+We recommend every repository include a README, LICENSE, and .gitignore.
+…or create a new repository on the command line
+
+echo "# 1st_SA_Demo" >> README.md
+git init
+git add README.md (use git add .)
+git commit -m "first commit"
+git remote add origin https://github.com/hirendrasingh/1st_SA_Demo.git
+git push -u origin master
+or use if error comes.
+git push origin HEAD:master
+All the above commands is for first time.
+
+to resolve ref error use...
+git fetch
+git push
+
+Trigger Jenkins build when code is push to TFS automatically....
+Poll SCM option
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/hirendrasingh/1st_SA_Demo.git
+git push -u origin master
+
+…or import code from another repository
+
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+ProTip! Use the URL for this page when adding GitHub as a remote. 
+
+-----------------------------------------------------------------------------------
+
+TFS add project by cloning....
+
+This repository is empty
+No content was found in the SourceAbled_QA repository. To get started, you need to do one of the following options:
+Clone the empty repository
+If you are starting on an entirely new project, you can clone the empty repository to your local machine and then work locally before pushing changes back to the server.
+From Visual Studio
+You can Clone a repository after connecting with Team Explorer.
+From the command line
+You can clone the project using the following command:
+git clone http://assetmanagement.webteamcorp.com:8080/tfs/QualityAssuranceCollection/_git/SourceAbled_QA
+After cloning try to push by changing all the files.
+
+--------------------------------------------------------------------------------------------------------
+
+This is very important for already existing project on the TFS repository.
+If you want to push whole new project to the existing TFS repository:
+First clone the project using the following command:
+git clone http://assetmanagement.webteamcorp.com:8080/tfs/QualityAssuranceCollection/_git/SourceAbled_QA
+After cloning delete all the files which you received via cloning.
+Add all the new files from your local directory to this location where you have cloned this project.
+After that use git push command to put all the files to remote TFS repository.
+
+-------------------------------------------------------------------------------------------------
+
+Push an existing repository
+If you already have an existing Git repository, you can push it to the server.
+From Visual Studio
+You can Push a repository after connecting with Team Explorer and adding the Git repo to your list of Local Git Repositories.
+From the command line
+You can push the project using the following commands:
+git remote add origin http://assetmanagement.webteamcorp.com:8080/tfs/QualityAssuranceCollection/_git/SourceAbled_QA
+git push -u origin --all
+git push origin +master (to push in existing and different repository)
+git push --set-upstream origin master
+
+------------------------------------------------------------------------------
+
+It turns out that this only started happening after I needed to change Windows logon password.
+
+The password was updated locally and on the TFS server, but not in the cached credentials for git.
+
+Fix
+Control Panel -> Credential Manager -> Generic Credentials
+
+Then update the password for git:http://ServerName:1234/
+
+Now I can successfully access the repo from command line and VS Code.
+
+--------------------------------------------------------------------------------
